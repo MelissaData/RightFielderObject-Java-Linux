@@ -1,5 +1,3 @@
-
-
 # Compiled class file
 *.class
 
@@ -13,15 +11,17 @@
 *.rar
 *.cpp
 *.h
+*.hash
 
 /MelissaUpdater/
 
 Data/
 
-
 mdRightFielder.dll
 mdRightFielder.dll.hash
 libmdRightFielder.so
 libmdRightFielder.so.hash
+mdRightFielder_JavaCode.zip
+mdRightFielder_JavaCode.zip,hash
 
 
