@@ -314,6 +314,9 @@ public final static class ResultCdDescOpt {
 		return mdRightFielderJNI.GetResults(I);
 	}
 
+	public String GetResultCodeDescription(String resultCode) {
+		return mdRightFielderJNI.GetResultCodeDescription(I,resultCode,0);
+	}
 	public String GetResultCodeDescription(String resultCode, mdRightFielder.ResultCdDescOpt opt) {
 		return mdRightFielderJNI.GetResultCodeDescription(I,resultCode,opt.toValue());
 	}
